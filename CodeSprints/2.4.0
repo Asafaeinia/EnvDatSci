@@ -1,0 +1,17 @@
+Collecting mapclassify
+  Downloading mapclassify-2.8.1-py3-none-any.whl.metadata (2.8 kB)
+Requirement already satisfied: networkx>=2.7 in c:\users\ahmad\anaconda3\lib\site-packages (from mapclassify) (3.2.1)
+Requirement already satisfied: numpy>=1.23 in c:\users\ahmad\anaconda3\lib\site-packages (from mapclassify) (1.26.4)
+Requirement already satisfied: pandas!=1.5.0,>=1.4 in c:\users\ahmad\anaconda3\lib\site-packages (from mapclassify) (2.2.2)
+Requirement already satisfied: scikit-learn>=1.0 in c:\users\ahmad\anaconda3\lib\site-packages (from mapclassify) (1.4.2)
+Requirement already satisfied: scipy>=1.8 in c:\users\ahmad\anaconda3\lib\site-packages (from mapclassify) (1.13.1)
+Requirement already satisfied: python-dateutil>=2.8.2 in c:\users\ahmad\anaconda3\lib\site-packages (from pandas!=1.5.0,>=1.4->mapclassify) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in c:\users\ahmad\anaconda3\lib\site-packages (from pandas!=1.5.0,>=1.4->mapclassify) (2024.1)
+Requirement already satisfied: tzdata>=2022.7 in c:\users\ahmad\anaconda3\lib\site-packages (from pandas!=1.5.0,>=1.4->mapclassify) (2023.3)
+Requirement already satisfied: joblib>=1.2.0 in c:\users\ahmad\anaconda3\lib\site-packages (from scikit-learn>=1.0->mapclassify) (1.4.2)
+Requirement already satisfied: threadpoolctl>=2.0.0 in c:\users\ahmad\anaconda3\lib\site-packages (from scikit-learn>=1.0->mapclassify) (2.2.0)
+Requirement already satisfied: six>=1.5 in c:\users\ahmad\anaconda3\lib\site-packages (from python-dateutil>=2.8.2->pandas!=1.5.0,>=1.4->mapclassify) (1.16.0)
+Downloading mapclassify-2.8.1-py3-none-any.whl (59 kB)
+   ---------------------------------------- 0.0/59.1 kB ? eta -:--:--   ---------------------------------------- 59.1/59.1 kB 3.1 MB/s eta 0:00:00
+Installing collected packages: mapclassify
+Successfully installed mapclassify-2.8.1
